@@ -1,0 +1,266 @@
+body{
+	background: #ffffff;
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*General*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:gray;
+	color: #ffffff;
+	padding-top: 5px;
+	min-height: 70px;
+}
+
+header nav ul a{
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 10px 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header nav{
+	float: right;
+}
+
+.container #highlight{
+	color: silver;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background:url(animation3.jpg) no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+}
+/*
+#showcase2{
+	min-height: 400px;
+	background: url(download.jpg) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+*/
+#showcase .container{
+	line-height: 1.5px;
+	text-align: center;
+	padding-top: 140px;
+}
+
+
+
+#showcase .container h1{
+	font-size: 40px; 
+}
+
+#showcase .container p{
+	font-size: 13px;
+}
+
+/*
+
+#showcase2 .container{
+	line-height: 10px;
+	padding-top: 150px;
+}
+
+#showcase2 .container h1{
+	font-size: 30px; 
+}
+
+#showcase2 .container p{
+	font-size: 20px;
+}
+*/
+
+.container .box{
+	border: silver 1px solid;
+	margin:30px 15px 15px 15px;
+	padding: 0;
+	width: 30%;
+	text-align: center;
+	float:left;
+	line-height: 20px;
+}
+
+.container .box h5{
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 0;
+	color: grey;
+	line-height: 0;
+}
+
+/*box 1*/
+.container .box #green{
+	color: green;
+}
+
+.container .box .button_1{
+	background: green;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+/*box 2*/
+
+.container .box #blue{
+	color: blue;
+}
+
+.container .box .button_2{
+	background: blue;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+/*box 3*/
+
+.container .box #red{
+	color: red;
+}
+
+.container .box .button_3{
+	background: red;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+/*box 4-6 */
+
+.container .box .button_0{
+	background: black;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: none;
+}
+/*
+footer{
+	padding: 15px;
+	margin-top: 15px;
+	text-align: center;
+	color: #ffffff;
+	background:grey; 
+}
+*/
+
+/* About Us */
+#about .container{
+	float: left;
+	padding: 5px 30px 30px 30px;
+	margin: 50px 0 0 100px;
+	width: 35%;
+	font-size: 18px;
+}
+
+#about #img{
+	float:left;
+	padding: 40px 0px 0 20px;
+	margin: 50px 0 0 30px;
+
+}
+
+#about .container h4{
+	font-weight: bold;
+	color: grey;
+	font-size: 20px;
+}
+#services .container{
+	text-align: center;
+}
+
+#services .container .box{
+	color: #ffffff;
+	width: 25%;
+	float: left;
+	padding: 0;
+	margin: 25px 10px 25px 50px;
+
+}
+
+#services .container .b1{
+	background: brown;
+	margin: 0 20px 0 0;
+	padding: 20px;
+	
+}
+
+#services .container .b2{
+	background: grey;
+	margin: 0 20px 0 0;
+	padding: 20px;
+	
+}
+
+#services .container .b3{
+	background: purple;
+	margin: 0;
+	padding: 20px;
+	
+} 
+
+/* Media Quaries */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#showcase .container,
+	#showcase .container h1, 
+	#showcase .container p,
+	#boxes #box{
+		float:none;
+		text-align:center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#showcase h1{
+		margin-top: 40px;
+	}
+
+	
+
+	/*
+header{
+		padding-bottom: 20px;
+	}
+
+	#showcase h1{
+		margin-top: 40px;
+	}
+#newsletter button, .quote button{
+	display: block;
+	width: 100%;
+}
+
+#newsletter form input[type='emai], .quote input, .quote textarea{
+	width: 100%;
+	margin-bottom: 5px;
+}
